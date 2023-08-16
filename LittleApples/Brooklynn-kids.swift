@@ -3,11 +3,11 @@
 //  LittleApples
 //
 //  Created by scholar on 8/15/23.
-//brooklynn shopping
+//
 
 import SwiftUI
 
-struct ContentView: View {
+struct Brooklynnkids: View {
     let deviceBg = #colorLiteral(red: 0.9655330777, green: 0.8915256858, blue: 0.7311252952, alpha: 1)
     var body: some View {
         ZStack{
@@ -16,17 +16,17 @@ struct ContentView: View {
             
 //Title:
         VStack {
-            Text("Results for shopping in Brooklynn")
+            Text("Results for kids activities in Brooklynn")
                 .font(.title)
                 .fontWeight(.medium)
                 .multilineTextAlignment(.center)
                 .padding(30)
 //First locatoin
-            Text("Tula House")
+            Text("The Painted Pot")
                 .font(.title3)
                 .fontWeight(.semibold)
         HStack{
-            Image("tula")
+            Image("pottery")
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 130.0)
@@ -40,32 +40,32 @@ struct ContentView: View {
         .padding(.horizontal, 20)
             
 //Second locatoin
-        Text("Cloth")
+        Text("Puppetworks")
                 .font(.title3)
                 .fontWeight(.semibold)
         HStack{
-            Image("cloth")
+            Image("puppet")
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 130.0)
             VStack(alignment: .leading){
-                Text("Location: 138 Ft Greene Pl Brooklynn, NY 11217")
+                Text("Location: 338 Sixth Ave Brooklynn, Ny 11215 United States")
             }.padding(.leading)
                 }
         .padding(10)
 //padding2
         .padding(.horizontal, 20)
 //Third locatoin
-            Text("Something Else on Fifth")
+            Text("Lola Tots")
                 .font(.title3)
                 .fontWeight(.semibold)
         HStack{
-            Image("fifth")
+            Image("lola")
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 130.0)
             VStack(alignment: .leading){
-                Text("Location: 206 Fifth Ave Brooklynn, NY 11217")
+                Text("Location: 1109 Fulton St Brooklynn, NY 11238")
             }.padding(.leading)
                 }
         .padding(10)

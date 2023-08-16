@@ -15,6 +15,9 @@
 		BD2868DC2A8BCF2900CCC33F /* LittleApplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2868DB2A8BCF2900CCC33F /* LittleApplesUITests.swift */; };
 		BD2868DE2A8BCF2900CCC33F /* LittleApplesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2868DD2A8BCF2900CCC33F /* LittleApplesUITestsLaunchTests.swift */; };
 		BD2868EB2A8BD42D00CCC33F /* StartQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2868EA2A8BD42D00CCC33F /* StartQuiz.swift */; };
+		BD78CF382A8D4D22000C2347 /* brooklynnKids.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD78CF372A8D4D22000C2347 /* brooklynnKids.swift */; };
+		BDADC6B52A8D43B300D591B6 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADC6B42A8D43B300D591B6 /* SwiftUIView.swift */; };
+		BDADC6B72A8D43D200D591B6 /* Brooklynn-kids.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADC6B62A8D43D200D591B6 /* Brooklynn-kids.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		BD2868DB2A8BCF2900CCC33F /* LittleApplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleApplesUITests.swift; sourceTree = "<group>"; };
 		BD2868DD2A8BCF2900CCC33F /* LittleApplesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleApplesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BD2868EA2A8BD42D00CCC33F /* StartQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartQuiz.swift; sourceTree = "<group>"; };
+		BD78CF372A8D4D22000C2347 /* brooklynnKids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brooklynnKids.swift; sourceTree = "<group>"; };
+		BDADC6B42A8D43B300D591B6 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		BDADC6B62A8D43D200D591B6 /* Brooklynn-kids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Brooklynn-kids.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 			children = (
 				BD2868C02A8BCF2800CCC33F /* LittleApplesApp.swift */,
 				BD2868C22A8BCF2800CCC33F /* ContentView.swift */,
+				BDADC6B62A8D43D200D591B6 /* Brooklynn-kids.swift */,
+				BD78CF372A8D4D22000C2347 /* brooklynnKids.swift */,
+				BDADC6B42A8D43B300D591B6 /* SwiftUIView.swift */,
 				BD2868EA2A8BD42D00CCC33F /* StartQuiz.swift */,
 				BD2868C42A8BCF2900CCC33F /* Assets.xcassets */,
 				BD2868C62A8BCF2900CCC33F /* Preview Content */,
@@ -261,8 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD2868C32A8BCF2800CCC33F /* ContentView.swift in Sources */,
+				BDADC6B72A8D43D200D591B6 /* Brooklynn-kids.swift in Sources */,
 				BD2868EB2A8BD42D00CCC33F /* StartQuiz.swift in Sources */,
+				BDADC6B52A8D43B300D591B6 /* SwiftUIView.swift in Sources */,
 				BD2868C12A8BCF2800CCC33F /* LittleApplesApp.swift in Sources */,
+				BD78CF382A8D4D22000C2347 /* brooklynnKids.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
